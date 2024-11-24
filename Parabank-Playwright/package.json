@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "@playwright/test": "^1.48.0" 
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "playwright test --browser=chromium --headed --workers=8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
